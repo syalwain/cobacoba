@@ -1,0 +1,42 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background: #f4f6f9;
+  color: #1f2937;
+}
+.topbar {
+  display: flex; align-items: center; gap: 32px;
+  background: #0b5ea8; color: #fff; padding: 0 24px; height: 56px;
+}
+.brand { font-weight: 700; font-size: 18px; }
+.nav-link { color: #dbeafe; text-decoration: none; padding: 18px 14px; display: inline-block; }
+.nav-link.active { color: #fff; border-bottom: 3px solid #fff; }
+.container { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+h1 { font-size: 22px; margin: 0 0 16px; }
+.page-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.table th, .table td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #e5e7eb; }
+.table th { background: #eef2f7; font-size: 13px; text-transform: uppercase; letter-spacing: .03em; }
+.center { text-align: center !important; color: #6b7280; }
+.actions { display: flex; gap: 6px; }
+.btn { display: inline-block; padding: 8px 14px; border: 1px solid #cbd5e1; background: #fff; border-radius: 6px; cursor: pointer; text-decoration: none; color: #1f2937; font-size: 14px; }
+.btn:hover { background: #f1f5f9; }
+.btn-sm { padding: 4px 10px; font-size: 13px; }
+.btn-primary { background: #0b5ea8; border-color: #0b5ea8; color: #fff; }
+.btn-primary:hover { background: #094a85; }
+.btn-danger { background: #dc2626; border-color: #dc2626; color: #fff; }
+.btn-danger:hover { background: #b91c1c; }
+.btn:disabled { opacity: .6; cursor: not-allowed; }
+.badge { padding: 2px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; background: #e5e7eb; }
+.badge-ok { background: #dcfce7; color: #166534; }
+.badge-off { background: #fee2e2; color: #991b1b; }
+.badge-warn { background: #fef3c7; color: #92400e; }
+.badge-info { background: #dbeafe; color: #1e40af; }
+.form { background: #fff; padding: 20px; border-radius: 8px; max-width: 520px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.form label { display: block; margin-bottom: 14px; font-weight: 600; font-size: 14px; }
+.form input, .form select { display: block; width: 100%; margin-top: 6px; padding: 9px 10px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 14px; font-weight: 400; }
+.form small { font-weight: 400; color: #6b7280; }
+.form-actions { display: flex; gap: 8px; margin-top: 8px; }
+.alert { padding: 10px 14px; border-radius: 6px; margin-bottom: 12px; }
+.alert-error { background: #fee2e2; color: #991b1b; }
